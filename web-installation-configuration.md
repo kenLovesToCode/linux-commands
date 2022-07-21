@@ -1,9 +1,22 @@
 LINUX
-#### Git 
+## GIT and SETUP
+`sudo apt install git` to install git
+
+`cd`
+
+`ssh-keygen -t rsa -b 4096 -C "name@email.com"`
+
+`eval "$(ssh-agent -s)"` to start ssh-agent
+
+`ssh-add .ssh/id_rsa` add a key
+
+`xclip -selection clipboard < ~/.ssh/id_rsa.pub` copy to clipboard
 
 
 
-#### NVM
+
+
+## NVM
 `nvm ls-remote` show versions of node.js
 
 `nvm ls` show downloaded versions of node.js
