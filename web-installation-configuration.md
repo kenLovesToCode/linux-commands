@@ -14,6 +14,25 @@ LINUX
 
 
 
+#### Multiple Git SSH
+`cd`
+
+`ls -l ~/.ssh` to show list of ssh
+
+`ssh-gen -t ed25519 -C "some names"` after pressing the enter, will be asked to enter dir
+
+type `/home/pcname/.ssh/key_name` and press enter
+
+`ssh-copy-id -i ~/.ssh/key_name.pub admin@skynet.learnlinux.cloud` to automatically add the ssh key to domain (optional)
+
+`ssh -i ~/.ssh/key_name  ` to use specific ssh key
+
+`eval $(ssh-agent)` to start ssh-agent
+
+`ssh-add .ssh/id_rsa` add a key
+
+`ssh key_name` to run the ssh
+
 
 
 ## NVM
