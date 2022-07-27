@@ -13,25 +13,12 @@ LINUX
 `xclip -selection clipboard < ~/.ssh/id_rsa.pub` copy to clipboard
 
 
-
-
-## LINUX DOTNET
-- for creating new project, goto *[Create a new dotnet webapp in linux](https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/2-1-create-configure-aspnet-core-applications)*
-
-- setup sql-server, goto *[Ubuntu: Sql-server installation](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16)*
-
-- install dotnet core, goto *[Ubuntu: Dotnet core](https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/1-3-install-dotnet-core-linux)*
-
-- install dotnet core sdk, goto *[Ubuntu: Dotnet sdk](https://tecadmin.net/how-to-install-dotnet-core-on-ubuntu-22-04/)*
-
-
-
 #### Multiple Git SSH
 `cd`
 
 `ls -l ~/.ssh` to show list of ssh
 
-`ssh-gen -t ed25519 -C "some names"` after pressing the enter, will be asked to enter dir
+`ssh-keygen -t ed25519 -C "some names"` after pressing the enter, will be asked to enter dir
 
 type `/home/pcname/.ssh/key_name` and press enter
 
@@ -45,6 +32,17 @@ type `/home/pcname/.ssh/key_name` and press enter
 
 `ssh key_name` to run the ssh
 
+`clip < ~/.ssh/id_rsa.pub` to copy to clipboard
+
+
+## LINUX DOTNET
+- for creating new project, goto *[Create a new dotnet webapp in linux](https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/2-1-create-configure-aspnet-core-applications)*
+
+- setup sql-server, goto *[Ubuntu: Sql-server installation](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16)*
+
+- install dotnet core, goto *[Ubuntu: Dotnet core](https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/aspnetcore/practice-troubleshoot-linux/1-3-install-dotnet-core-linux)*
+
+- install dotnet core sdk, goto *[Ubuntu: Dotnet sdk](https://tecadmin.net/how-to-install-dotnet-core-on-ubuntu-22-04/)*
 
 
 ## NVM
